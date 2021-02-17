@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/minima.scss"
+	],
+	"sourcesContent": [
+		"@import \"minima\";\n",
+		"html { background: #fff; max-width: 600px; padding: 1em;}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EAAE,UAAU,EAAE,IAAI,EAAE,SAAS,EAAE,KAAK,EAAE,OAAO,EAAE,GAAG,GAAG"
+}
