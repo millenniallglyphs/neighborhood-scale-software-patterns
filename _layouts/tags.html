@@ -2,18 +2,38 @@
 title: tags
 layout: default
 ---
-<div class="tags">
+<div>
   {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-{{ t.tag | downcase }}
-<ul>
+<h3 id="{{t.tag}}">{{ t.tag | downcase }}</h3>
+<ul class="post-list">
 {% for post in posts %}
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {% if post.tags contains t %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
+  <a class="post-link" href="{{ post.url | relative_url }}">
+    <li class="pattern-card">
+      <div class="titleFlex">
+        <h2>
+            {{ post.title | escape }}
+        </h2>
+        <p class="date">
+          {{ post.date | date: date_format }}
+        </p>
+      </div>
+      <ul class="tags">
+      {%- if post.tags.size > 0 -%}
+          {%- for tag in post.tags -%}
+          <li ><a href="/tags#{{tag.tag}}" class="tag">{{tag.tag | replace:" ","-" }}</a></li>
+          {%- endfor -%}
+      {%- endif -%}
+      </ul>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+  </a>
   {% endif %}
 {% endfor %}
 </ul>
