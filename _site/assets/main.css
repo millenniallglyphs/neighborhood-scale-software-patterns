@@ -1,3 +1,29 @@
-html { background: #fff; max-width: 600px; padding: 1em; }
+html { background: #fff; max-width: 600px; padding: 1em; box-sizing: border-box; }
+
+.tags { list-style-type: none; display: flex; margin-left: 0; }
+
+a[class*="tag"] { color: black; padding: 0.5em; text-decoration: none; margin-right: 1em; margin-left: 0; }
+
+.tag-my { background: #9593FF; }
+
+.tag-first { background: #FFE142; }
+
+.tag-tag { background: #82D2FF; }
+
+.tag-hello { background: #77FFE6; }
+
+.tag-world { background: #FFB4CF; }
+
+.tag-community { background: #FFD78B; }
+
+.numberLabel { padding: 0.5em; background: rgba(244, 244, 244, 0.72); color: black; margin-right: -0.5em; margin-left: 0.5em; }
+
+.pattern-card { padding: 0.5em; background: #FCE8FF; margin: 1em 1em 1em 0em; }
+
+.post-list { list-style-type: none; }
+
+h3 { text-decoration: none; color: blue; margin: 0; }
+
+ul { display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 0px; }
 
 /*# sourceMappingURL=main.css.map */
