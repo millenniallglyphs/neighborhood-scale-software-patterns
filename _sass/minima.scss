@@ -2,39 +2,35 @@ html { background: #fff; max-width: 600px; padding: 1em; box-sizing: border-box;
 
 .tags { list-style-type: none; display: flex; margin-left: 0;}
 
-a[class*="tag"] { color: black; padding: 0.5em; text-decoration: none; margin-right: 1em; margin-left: 0;}
+.tag { color: blue; padding: 0.5em; text-decoration: none; margin-right: 1em; margin-left: 0; border: 1px solid blue; transition: box-shadow .2s; background: white; }
 
-.tag-my {
-    background: #9593FF;
+.tag:hover {
+    box-shadow: 2px 2px 0px #094BF5;
 }
 
-.tag-first {
-    background: #FFE142;
-}
+.numberLabel { padding: 0.5em; background: #BED4FF; color: blue; margin-right: -0.5em; margin-left: 0.5em;}
 
-.tag-tag {
-    background: #82D2FF;
-}
+.pattern-card { padding: 0.5em; background: #F5F5F5; margin: 1em 1em 1em 0em; transition: box-shadow .2s;}
 
-.tag-hello {
-    background: #77FFE6;
-}
-
-.tag-world {
-    background: #FFB4CF;
-}
-
-.tag-community {
-    background: #FFD78B;
-}
-
-.numberLabel { padding: 0.5em; background: rgba(244, 244, 244, 0.72); color: black; margin-right: -0.5em; margin-left: 0.5em;}
-
-.pattern-card { padding: 0.5em; background: #FCE8FF; margin: 1em 1em 1em 0em; }
+.pattern-card:hover { box-shadow: 2px 2px 0px #094BF5; }
 
 .post-list { list-style-type: none; }
 
-h3 { text-decoration: none; color: blue; margin: 0;}
+.titleFlex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.date  {
+    margin: 0;
+    color: #585858;
+    text-decoration: none;
+}
+
+h2 { text-decoration: none; color: blue; margin: 0;}
 
 ul {
     display: block;
