@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-19T14:24:00-08:00</updated><id>/feed.xml</id><title type="html">Neighborhood Scale Software Patterns</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Hello World</title><link href="/pattern/2021/02/12/testing.html" rel="alternate" type="text/html" title="Hello World" /><published>2021-02-12T23:38:15-08:00</published><updated>2021-02-12T23:38:15-08:00</updated><id>/pattern/2021/02/12/testing</id><content type="html" xml:base="/pattern/2021/02/12/testing.html">&lt;h1 id=&quot;testing&quot;&gt;testing&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-20T10:30:35-08:00</updated><id>/feed.xml</id><title type="html">Neighborhood Scale Software Patterns</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Productive Awkward Silences</title><link href="/pattern/2021/02/20/productive-awkward-silences.html" rel="alternate" type="text/html" title="Productive Awkward Silences" /><published>2021-02-20T03:47:00-08:00</published><updated>2021-02-20T03:47:00-08:00</updated><id>/pattern/2021/02/20/productive-awkward-silences</id><content type="html" xml:base="/pattern/2021/02/20/productive-awkward-silences.html">&lt;h2 id=&quot;context&quot;&gt;Context&lt;/h2&gt;
+
+&lt;p&gt;Videoconferencing makes it possible to run group discussions that couldn’t happen before. However, they make group dynamics more complex, most notably deciding when to speak and when to remain silent.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;Lower prevalence of body language, inability to create ad hoc side channels (such as whispering to one’s neighbor’s ear), shyness, wariness of micro-aggressions and many, many other factors can cause online classes and discussions involving strangers to devolve into uneasy silences. Organizers can be tempted to intervene every time nobody seems to be speaking, perhaps out of fear of an awkward moment.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Letting the room stay silent for 20 to 30 seconds before an organizer intervenes enables better participation from everyone around.&lt;/p&gt;</content><author><name></name></author><category term="pattern" /><category term="{&quot;tag&quot;=&gt;&quot;social&quot;}" /><category term="{&quot;tag&quot;=&gt;&quot;group dynamics&quot;}" /><summary type="html">Context</summary></entry><entry><title type="html">Federated Decentralization</title><link href="/pattern/2021/02/20/federated-decentralization.html" rel="alternate" type="text/html" title="Federated Decentralization" /><published>2021-02-20T02:33:27-08:00</published><updated>2021-02-20T02:33:27-08:00</updated><id>/pattern/2021/02/20/federated-decentralization</id><content type="html" xml:base="/pattern/2021/02/20/federated-decentralization.html">&lt;h2 id=&quot;context&quot;&gt;Context&lt;/h2&gt;
+
+&lt;p&gt;Online life centralization enables corporate ownership and control of people’s data and means of expression. Complete decentralization and disintermediation, where every user owns and administrates their server nodes, is currently unfeasible.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;Online centralization is a well documented problem. It enables censorship and often prevents pro-active handling of trolling and moderation issues. Business owners’ interests rarely match the interests of users.&lt;/p&gt;
+
+&lt;p&gt;Completely decentralized networks, where each user is expected to run their own node for hosting or mining purposes, present a huge technical burden, and often require users to have spare machines, and uninterrupted internet access. More often than not, those systems encourage reintermediation, in the form of businesses that provide a better UI for transactions, enable discovery, store wallets or host servers. This defeats the purpose of decentralization and adds a chain of new intermediaries that need to be trusted, and whose interests might not match the user’s.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;A federated network, where users connect to a specific node they choose. Each node is hosted and administered independently, and enforces its own rules. It is functionally the same as “intermediated decentralization” described above, but with the benefit of transparency. It does not pretend to be what it is not.&lt;/p&gt;
+
+&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://joinmastodon.org&quot;&gt;Mastodon&lt;/a&gt; fediverse.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://joinpeertube.org/&quot;&gt;PeerTube&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;SMTP and email.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="pattern" /><category term="{&quot;tag&quot;=&gt;&quot;web&quot;}" /><category term="{&quot;tag&quot;=&gt;&quot;distributed&quot;}" /><summary type="html">Context</summary></entry><entry><title type="html">Hello World</title><link href="/pattern/2021/02/12/testing.html" rel="alternate" type="text/html" title="Hello World" /><published>2021-02-12T23:38:15-08:00</published><updated>2021-02-12T23:38:15-08:00</updated><id>/pattern/2021/02/12/testing</id><content type="html" xml:base="/pattern/2021/02/12/testing.html">&lt;h1 id=&quot;testing&quot;&gt;testing&lt;/h1&gt;
 
 &lt;p&gt;Lorem ipsum&lt;/p&gt;</content><author><name></name></author><category term="pattern" /><category term="{&quot;tag&quot;=&gt;&quot;my&quot;}" /><category term="{&quot;tag&quot;=&gt;&quot;first&quot;}" /><category term="{&quot;tag&quot;=&gt;&quot;tag&quot;}" /><summary type="html">testing</summary></entry><entry><title type="html">Time sharing</title><link href="/pattern/2021/02/12/time-sharing2.html" rel="alternate" type="text/html" title="Time sharing" /><published>2021-02-12T23:38:15-08:00</published><updated>2021-02-12T23:38:15-08:00</updated><id>/pattern/2021/02/12/time-sharing2</id><content type="html" xml:base="/pattern/2021/02/12/time-sharing2.html">&lt;p&gt;Context: There is limited computational power, but many people wish to access these services.&lt;/p&gt;
 
