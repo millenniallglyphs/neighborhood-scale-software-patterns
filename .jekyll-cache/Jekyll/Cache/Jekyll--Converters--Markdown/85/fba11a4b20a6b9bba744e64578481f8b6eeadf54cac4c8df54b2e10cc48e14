@@ -1,0 +1,22 @@
+I"�<h2 id="context">Context</h2>
+
+<p>Online life centralization enables corporate ownership and control of people’s data and means of expression. Complete decentralization and disintermediation, where every user owns and administrates their server nodes, is currently unfeasible.</p>
+
+<h2 id="problem">Problem</h2>
+
+<p>Online centralization is a well documented problem. It enables censorship and often prevents pro-active handling of trolling and moderation issues. Business owners’ interests rarely match the interests of users.</p>
+
+<p>Completely decentralized networks, where each user is expected to run their own node for hosting or mining purposes, present a huge technical burden, and often require users to have spare machines, and uninterrupted internet access. More often than not, those systems encourage reintermediation, in the form of businesses that provide a better UI for transactions, enable discovery, store wallets or host servers. This defeats the purpose of decentralization and adds a chain of new intermediaries that need to be trusted, and whose interests might not match the user’s.</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>A federated network, where users connect to a specific node they choose. Each node is hosted and administered independently, and enforces its own rules. It is functionally the same as “intermediated decentralization” described above, but with the benefit of transparency. It does not pretend to be what it is not.</p>
+
+<h2 id="examples">Examples</h2>
+
+<ul>
+  <li>The <a href="https://joinmastodon.org">Mastodon</a> fediverse.</li>
+  <li><a href="https://joinpeertube.org/">PeerTube</a>.</li>
+  <li>SMTP and email.</li>
+</ul>
+:ET
