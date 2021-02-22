@@ -13,7 +13,7 @@ layout: default
     {% for tag in site.tags %}
       {% assign t = tag | first %}
       {% assign posts = tag | last %}
-      <li><a href="/tags#{{t.tag}}" class="tag">{{t.tag | replace:" ","-" }}<span class="numberLabel">{{ posts | size }}</span></a></li>
+      <li><a href="{{ site.baseurl }}/tags#{{t.tag}}" class="tag">{{t.tag | replace:" ","-" }}<span class="numberLabel">{{ posts | size }}</span></a></li>
     {% endfor %}
 </ul>
 
@@ -46,7 +46,7 @@ layout: default
           <ul class="tags">
           {%- if post.tags.size > 0 -%}
               {%- for tag in post.tags -%}
-              <li ><a href="/tags#{{tag.tag}}" class="tag">{{tag.tag | replace:" ","-" }}</a></li>
+              <li ><a href="{{ site.baseurl }}/tags#{{tag.tag}}" class="tag">{{tag.tag | replace:" ","-" }}</a></li>
               {%- endfor -%}
           {%- endif -%}
           </ul>

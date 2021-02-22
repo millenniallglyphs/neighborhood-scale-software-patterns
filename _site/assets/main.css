@@ -1,6 +1,6 @@
 html { background: #fff; max-width: 600px; padding: 1em; box-sizing: border-box; }
 
-.tags { list-style-type: none; display: flex; margin-left: 0; }
+.tags { list-style-type: none; display: flex; margin-left: 0; flex-wrap: wrap; }
 
 .tag { color: blue; padding: 0.5em; text-decoration: none; margin-right: 1em; margin-left: 0; border: 1px solid blue; transition: box-shadow .2s; background: white; }
 
@@ -21,5 +21,7 @@ html { background: #fff; max-width: 600px; padding: 1em; box-sizing: border-box;
 h2 { text-decoration: none; color: blue; margin: 0; }
 
 ul { display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 0px; }
+
+li { padding: 1em 0 1em 0; }
 
 /*# sourceMappingURL=main.css.map */
