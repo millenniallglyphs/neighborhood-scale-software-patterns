@@ -1,0 +1,7 @@
+I"d<h2 id="context">Context</h2>
+<p>You host a small server that is solar powered</p>
+<h2 id="problem">Problem</h2>
+<p>Sometimes the battery runs out on a cloudy day. Users need a way to see how much time they have left to browse before the site goes offline</p>
+<h2 id="solution">Solution</h2>
+<p>Have a powerbar that surfaces the battery % to all users</p>
+:ET
