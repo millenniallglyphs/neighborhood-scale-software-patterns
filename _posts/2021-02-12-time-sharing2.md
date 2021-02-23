@@ -4,8 +4,6 @@ title:  "Time sharing"
 date:   2021-02-12 23:38:15 -0800
 categories: pattern
 tags: [
-    {tag: 'hello' },
-    {tag: 'world'},
     {tag: 'community'}
 ]
 ---
