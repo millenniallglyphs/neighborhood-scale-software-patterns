@@ -4,8 +4,8 @@ title:  "Distraction Reclaimation"
 date:   2021-02-12 23:38:15 -0800
 categories: pattern
 tags: [
-    {tag: 'algorithms'},
-    {tag: 'transparency'}
+    {tag: 'agency'},
+    {tag: 'attention'}
 ]
 ---
 ## Context

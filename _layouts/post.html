@@ -16,7 +16,7 @@ layout: default
     <ul class="tags">
       {%- if page.tags.size > 0 -%}
           {%- for tag in page.tags -%}
-          <li ><a href="/tags#{{tag.tag}}" class="tag">{{tag.tag | replace:" ","-" }}</a></li>
+          <li ><a href="{{ site.baseurl }}/tags#{{tag.tag}}" class="tag">{{tag.tag | replace:" ","-" }}</a></li>
           {%- endfor -%}
       {%- endif -%}
       </ul>
